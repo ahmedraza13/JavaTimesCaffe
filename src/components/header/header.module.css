@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #e0201c;
+  padding: 5px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .rightSide {
+  display: flex;
+}
+
+.leftSide > p {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+.rightSide p:first-child a {
+  border-right: 2px solid white;
+  padding-right: 16px; /* Add space between text and border */
+  margin-right: 16px; /* Add space between border and next element */
+  display: inline-flex;
+  align-items: center;
+}
+.rightSide p > a {
+  font-family: Poppins, sans-serif;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+}
