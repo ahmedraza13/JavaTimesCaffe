@@ -1,0 +1,39 @@
+.heroSection{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.heroSubtitle{
+    font-family: Poppins;
+    margin-bottom: 8px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 73.32px;
+    letter-spacing: -1.4663290977478027px;
+    color: #fff;
+    
+}
+
+.heroTitle{
+    font-family: Poppins, sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.heroSection button{
+    border: 1.48px solid rgb(255, 0, 0);
+    font-family: Poppins, sans-serif;
+    font-size: 17.78px;
+    font-weight: 500;
+    line-height: 26.67px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    border-radius: 36px;
+    outline: none;
+    background: none;
+    padding: 4px 20px;
+    cursor: pointer;
+}

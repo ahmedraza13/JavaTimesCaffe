@@ -13,7 +13,7 @@ function Header() {
       <address className={styles.rightSide}>
         <p>
           <a href="tel:+528711236511">
-            <img src={whatsapplogo} alt="whatsapplogo" height={25} width={25} />
+            <img src={whatsapplogo} alt="whatsapplogo" height={22} width={22} />
             +52 871 123 6511
           </a>
         </p>
